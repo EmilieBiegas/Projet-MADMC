@@ -1,4 +1,10 @@
-Le fichier code est sous la forme d'un Notebook qui suit le plan du sujet, il suffit de tout exécuter pour voir s'afficher les réponses aux questions 2.a. (fonction questionA), 2.b. (fonction questionB) ainsi que les comparaisons de méthodes (fonction ComparaisonsMéthodes), comme indiquées dans le rapport.
+Projet réalisé dans le cadre de l'UE Modèles et algorithmes pour la décision multicritère et collective (MADMC).
+Sujet du TME : Recherche locale de Pareto (PLS)
+Sujet du projet : Élicitation incrémentale et recherche locale pour le problème du sac à dos multi-objectifs
+
+Ce repository est constitué de plusieurs fichiers : InstancesMOKP répertorie toutes les instances permettant les tests, 2KP200-TA-0.dat est l'instance principalement utilisée pour les tests, MADMC_Projet.ipynb est le fichier code final pour ce projet, MADMC_Rapport.pdf est le rapport final du projet, MADMC_Sujet.pdf est l'énoncé du projet, TME_MADMC.ipynb est le fichier code d'un TME utile à la réalisation de ce projet, TME_MADMC_Sujet.pdf est l'énoncé de ce TME, articleProjet1.pdf et articleProjet2.pdf sont deux articles sur lesquels on s'est basé pour ce projet.
+
+Le fichier code MADMC_Projet.ipynb est sous la forme d'un Notebook qui suit le plan du sujet, il suffit de tout exécuter pour voir s'afficher les réponses aux questions 2.a. (fonction questionA), 2.b. (fonction questionB) ainsi que les comparaisons de méthodes (fonction ComparaisonsMéthodes), comme indiquées dans le rapport.
 
 Sinon, voici les fonctions les plus utiles :
 -Pour obtenir une instance tirée du fichier nomFichier à nbObj objets, nbCrit critères : LectureInstanceParticuliere(nomFichier, nbObj, nbCrit) retourne n,W,w,v
